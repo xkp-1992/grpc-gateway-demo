@@ -1,0 +1,7 @@
+POST http://localhost:9092//v1/helloService/sayHello
+type: application/json
+
+{
+  "name": "hello",
+  "message":"world"
+}
