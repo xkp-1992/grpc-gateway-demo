@@ -1,0 +1,1 @@
+dapr run --app-port 8080 --app-protocol http --app-id http-server --dapr-http-port 8500 go run daprHttpServer.go

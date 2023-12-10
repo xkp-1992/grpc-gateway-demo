@@ -1,0 +1,1 @@
+dapr run --app-port 50051 --app-protocol grpc --app-id grpc-server --dapr-grpc-port 5501 go run daprGrpcServer.go

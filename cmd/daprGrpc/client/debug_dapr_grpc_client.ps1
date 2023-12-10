@@ -1,0 +1,1 @@
+dapr run --app-id grpc-client --dapr-http-port 6500 --dapr-grpc-port 6501  go run daprGrpcClient.go
