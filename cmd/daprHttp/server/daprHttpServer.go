@@ -17,6 +17,7 @@ func main() {
 		log.Println("http server")
 		return &common.Content{
 			ContentType: "text/plain",
+			//ContentType: "application/json",
 			Data:        []byte("hello world"),
 			DataTypeURL: in.DataTypeURL,
 		}, nil
